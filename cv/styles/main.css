@@ -1,0 +1,202 @@
+* {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;   
+	box-sizing: border-box;
+}
+
+/*======fonts' presets=====*/
+
+@font-face {
+font-family: "Novecento sans wide";
+src: url(../fonts/Novecentosanswide-Bold.otf);
+}
+
+h1 {
+	font-family: "Novecento sans wide", Helvetica, Arial, sans-serif;
+	font-size: 2.000em;
+	letter-spacing: 4.1px;
+	color: #f14437;
+	padding-top: 15px;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 21px;
+	letter-spacing: 1.27px;
+	color: #252525;
+	padding-bottom: 15px;
+	float: left;
+}
+
+h3{
+	font-family: "Novecento sans wide", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #f14437;
+	text-transform: uppercase;	
+	width: 100%;
+}
+
+h4{
+	font-family: "Novecento sans wide", Helvetica, Arial, sans-serif;
+	font-weight: medium;
+	font-size: 14px;
+	letter-spacing: 0.6px;
+	color: #252525;
+	margin: 16px 8px 16px 0;
+}
+
+p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.6px;
+	color: #252525;
+}
+
+header, .container, footer{
+	width: 60%;
+	margin: 0 auto;
+
+}
+
+section {
+	padding: 3% 0;
+	float: left;
+	background: url('../images/bg.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+
+.content {
+	float: right;
+	background-color: rgba(255,255,255, 0.8);
+	width: 45%;
+	min-width: 350px;
+	height: auto;
+	padding: 65px 30px 30px 30px;
+	background-image: url("../images/triangle.png");
+	background-repeat: no-repeat;
+	background-position: center 5%;
+}
+
+.row1, .row2 {
+	float: left;
+	width: 100%;
+}
+
+.columnleft {
+	width: 35%;
+	float: left;
+}
+
+.columnleft h4:nth-child(2){
+	padding-top: 20px;
+}
+
+.skillsrigth {
+	padding-left: 35%;
+}
+
+.columnright{
+	width: 65%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	margin-right: 3%;
+	width: 30%;
+	font-size: 1vw;
+}
+
+footer a {
+	text-decoration: none;
+	color: #f14437;
+	cursor: pointer;
+}
+
+
+/*
+============ MEDIA QUERIES ===============
+*/
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 670px) and (min-width: 320px) {
+
+	header, .container, footer{
+	width: 90%;
+	margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 1.50em;
+	}
+
+	h4 {
+		margin: 11px 8px 5px 0;
+	}
+
+	p{
+		margin: 11px 0;
+	}
+
+	section {
+		padding: 6% 0;
+		margin-bottom: 2%;
+	}
+
+	.content {
+		min-width: 100%;
+		padding-top: 50px;
+		background-image: url("../images/triangle@2x.png");
+		background-size: 7%;
+		background-repeat: no-repeat;
+		background-position: center 5%;
+	}
+
+	.columnleft, .columnright {
+		width: 100%;
+	}
+
+	.skillsrigth{
+		padding-left: 0;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 1em;
+		margin: 5px 0;
+	}
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 671px) and (max-width : 1024px) {
+
+	header, .container, footer{
+	width: 90%;
+	margin: 0 auto;
+	}
+
+	section {
+		margin-bottom: 2%;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 0.85em;
+		margin: 1%;
+	}
+ 
+
+}
+
+
+
