@@ -12,42 +12,42 @@ src: url(../fonts/Novecentosanswide-Bold.otf);
 }
 
 h1 {
+	padding-top: 15px;
 	font-family: "Novecento sans wide", Helvetica, Arial, sans-serif;
 	font-size: 2.000em;
 	letter-spacing: 4.1px;
 	color: #f14437;
-	padding-top: 15px;
 }
 
 h2 {
+	padding-bottom: 15px;
+	float: left;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 21px;
 	letter-spacing: 1.27px;
 	color: #252525;
-	padding-bottom: 15px;
-	float: left;
 }
 
-h3{
+h3 {
+	width: 100%;
 	font-family: "Novecento sans wide", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	letter-spacing: 2px;
-	color: #f14437;
 	text-transform: uppercase;	
-	width: 100%;
+	color: #f14437;	
 }
 
-h4{
+h4 {
+	margin: 16px 8px 16px 0;
 	font-family: "Novecento sans wide", Helvetica, Arial, sans-serif;
 	font-weight: medium;
 	font-size: 14px;
 	letter-spacing: 0.6px;
 	color: #252525;
-	margin: 16px 8px 16px 0;
 }
 
-p{
+p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -55,46 +55,47 @@ p{
 	color: #252525;
 }
 
-header, .container, footer{
-	width: 60%;
+header, 
+.container, 
+footer {
 	margin: 0 auto;
-
+	width: 60%;
 }
 
 section {
 	padding: 3% 0;
 	float: left;
+	width: 100%;
 	background: url('../images/bg.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	width: 100%;
 }
 
 .content {
+	padding: 65px 30px 30px 30px;
 	float: right;
-	background-color: rgba(255,255,255, 0.8);
 	width: 45%;
 	min-width: 350px;
-	height: auto;
-	padding: 65px 30px 30px 30px;
+	background-color: rgba(255,255,255, 0.8);	
 	background-image: url("../images/triangle.png");
 	background-repeat: no-repeat;
 	background-position: center 5%;
 }
 
-.row1, .row2 {
+.row1, 
+.row2 {
 	float: left;
 	width: 100%;
 }
 
 .columnleft {
-	width: 35%;
 	float: left;
+	width: 35%;	
 }
 
-.columnleft h4:nth-child(2){
+.columnleft h4:nth-child(2) {
 	padding-top: 20px;
 }
 
@@ -102,14 +103,14 @@ section {
 	padding-left: 35%;
 }
 
-.columnright{
-	width: 65%;
+.columnright {
 	float: right;
+	width: 65%;
 }
 
 footer p {
-	float: left;
 	margin-right: 3%;
+    float: left;
 	width: 30%;
 	font-size: 1vw;
 }
@@ -129,9 +130,11 @@ footer a {
 
 @media only screen and (max-width: 670px) and (min-width: 320px) {
 
-	header, .container, footer{
-	width: 90%;
-	margin: 0 auto;
+	header, 
+	.container, 
+	footer {
+		margin: 0 auto;
+		width: 90%;	
 	}
 
 	h1 {
@@ -152,26 +155,27 @@ footer a {
 	}
 
 	.content {
-		min-width: 100%;
 		padding-top: 50px;
+		min-width: 100%;
 		background-image: url("../images/triangle@2x.png");
 		background-size: 7%;
 		background-repeat: no-repeat;
 		background-position: center 5%;
 	}
 
-	.columnleft, .columnright {
+	.columnleft, 
+	.columnright {
 		width: 100%;
 	}
 
-	.skillsrigth{
+	.skillsrigth {
 		padding-left: 0;
 	}
 
-	footer p{
+	footer p {
+		margin: 5px 0;
 		width: 100%;
 		font-size: 1em;
-		margin: 5px 0;
 	}
 
 }
@@ -180,9 +184,11 @@ footer a {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width : 671px) and (max-width : 1024px) {
 
-	header, .container, footer{
-	width: 90%;
-	margin: 0 auto;
+	header, 
+	.container, 
+	footer {
+		margin: 0 auto;
+		width: 90%;
 	}
 
 	section {
